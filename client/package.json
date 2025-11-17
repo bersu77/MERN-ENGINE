@@ -3,8 +3,8 @@
   "version": "5.0.0",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "vite --port 5051",
-    "build": "vite build",
+    "start": "node init && vite --port 5051",
+    "build": "node init && vite build",
     "preview": "vite preview --port 5051"
   },
   "license": "MIT",
